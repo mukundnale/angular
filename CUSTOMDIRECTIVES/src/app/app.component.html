@@ -1,0 +1,17 @@
+
+<div class="container" setBackground appHover>
+  <p>Demo HTML content</p>
+</div>
+
+<div appHighlight appHover>
+  <p>Demo HTML content</p>
+</div>
+
+
+<div class="container" [appBetterhighlight]="'red'" [defautColor]="'yellow'">
+  <p>Demo HTML content @HostBinding </p>
+</div>
+
+<div [appClass]="{container: 10<5, 'change-font': true}">
+  <p>Demo HTML content @HostBinding </p>
+</div>

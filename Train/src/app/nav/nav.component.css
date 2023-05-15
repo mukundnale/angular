@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    background-color:aqua;
+}
+.site-name{
+    font-style: italic;
+    padding: 5px 100px;
+    color: black;
+}
+.site-menu{
+    font-size: large;
+    padding: 10px 30px;
+    margin-left: 800px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    margin: 400px 10px;
+}
